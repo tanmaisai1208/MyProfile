@@ -5,15 +5,18 @@ This is a single-page personal website built to showcase my skills, experience, 
 It is designed to be visually appealing and interactive using HTML, CSS, and JavaScript.
 
 ## Features ##
-About Me: A brief introduction of who I am and my professional goals.
-Skills: A section highlighting my technical skills with progress bars.
-Experience: A timeline of my work experience and major projects.
-Contact: A simple contact form to allow visitors to get in touch.
-Technologies Used
-HTML5: For structuring the content.
-CSS3: For styling the webpage and creating a responsive design.
+
+### About Me: ###
+A brief introduction of who I am and my professional goals.
+Skills: C++, PYTHON, HTML, CSS, JS, NodeJS, Express, MongoDb.
+Experience: Worked in one project in Web-dev domain.
+
+Technologies Used:
+HTML: For structuring the content.
+CSS: For styling the webpage and creating a responsive design.
 JavaScript: For adding interactivity, like form validation.
-How to Access
+
+How to Access:
 The website is hosted on GitHub Pages. You can view it at: Your Website URL
 
 ## How to Run Locally ##
