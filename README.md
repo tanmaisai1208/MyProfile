@@ -1,4 +1,4 @@
-# Personal Portfolio Website #
+# Personal Portfolio Webpage #
 ## Overview ##
 
 This is a single-page personal website built to showcase my skills, experience, and professional identity.
@@ -18,7 +18,6 @@ The website is hosted on GitHub Pages. You can view it at: Your Website URL
 
 ## How to Run Locally ##
 Clone the repository:
-bash
-Copy code
 git clone https://github.com/your-username/your-repo-name.git
+
 Open the index.html file in any web browser to view the website.
