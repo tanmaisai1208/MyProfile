@@ -5,9 +5,10 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
+    line-height: 30px;
 }
 
 header {
@@ -26,7 +27,6 @@ nav ul {
 
 nav a {
     color: white;
-    text-decoration: none;
 }
 
 section {
@@ -34,51 +34,220 @@ section {
     background-color: palegoldenrod;
 }
 
+#about p{
+    width: 800px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    /* flex-wrap: wrap;   */
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: auto;       
+    gap: 2px;               
+    margin-bottom: 1em;
+}
+
+.skill p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.link{
+    margin-top: 20px;
+    margin: 20px auto;
+}
+
+p{
+    font-weight: bold;
+}
+
 h1{
-   font-size: 30px;
+   font-size: 38px;
    padding: 5px;
 }
 
 header p {
-   font-size :22px;
+   font-size :25px;
    padding: 8px;
+}
+
+a{
+    font-size: 25px;
 }
 
 li{
    font-size: 22px;
 }
 
+p{
+    margin: auto auto;
+}
+
 h2 {
     text-align: center;
+    font-size: 33px;
     margin-bottom: 1em;
+    color: red;
 }
 
-.skill {
-    margin-bottom: 1em;
+h3{
+    font-size: 25px;
+    margin: auto auto;
+    margin-bottom: 10px;
 }
 
-.progress-bar {
-    background-color: #ddd;
-    border-radius: 10px;
-    overflow: hidden;
-    height: 10px;
-    width: 100%;
-}
-
-.progress-bar span {
-    display: block;
-    height: 100%;
-    background-color: #4caf50;
-}
-
-form {
+.contact{
     display: flex;
     flex-direction: column;
-    max-width: 600px;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
-form label, form input, form textarea {
-    margin-bottom: 1em;
-    padding: 0.5em;
+#contact p,#conatct a{
+    font-size: 25px;
+}
+
+.experience-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience-item p, .skill p, #about p{
+    font-size: 25px;
+}
+
+.experience-item p{
+    width: 800px;
+    margin-bottom: 35px;
+}
+
+.experience-item li{
+    font-size: 23px ;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    .skill p {
+        font-size: 16px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    #about p, .experience-item p {
+        max-width: 100%;
+        padding: 0 10px;
+        font-size: 20px;
+    }
+
+    .skill {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .skill p {
+        font-size: 20px;
+    }
+
+    .experience-item li {
+        font-size: 20px;
+    }
+
+    a, li {
+        font-size: 20px;
+    }
+
+    #contact p {
+        font-size: 20px;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+
+    .skill p {
+        font-size: 14px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    #about p, .experience-item p {
+        max-width: 100%;
+        padding: 0 5px;
+        font-size: 18px;
+    }
+
+    .skill {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .skill p {
+        font-size: 18px;
+    }
+
+    .experience-item li {
+        font-size: 18px;
+    }
+
+    a, li {
+        font-size: 18px;
+    }
+
+    #contact p {
+        font-size: 18px;
+    }
 }
